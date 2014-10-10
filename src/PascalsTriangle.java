@@ -20,7 +20,7 @@ public class PascalsTriangle {
 	 System.out.print("The number of unique ways you could pick " +k+ " items from " +n+ " is " +Combinations(n, k));
  }
 private static int Combinations(int n, int k) {
-	/*A recursive method to determine how many ways you can organize n elements from k elements.
+	/*A method to determine how many ways you can organize n elements from k elements.
 	 * Assumes that the user isn't stupidly trying to select more items than 
 	 * the list contains*/
 	if(n == 0 || k == 0) return 0; 
